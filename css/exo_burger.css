@@ -1,11 +1,13 @@
 body{ 
-    background-color: rgb(49, 43, 43);
-    color: aliceblue;
+  background-image: url("../menu-home-image.jpg");
+    background-size: 100vh;
+    background-repeat: no-repeat;
 } 
-
+#droite{
+    
+}
 #gauche{
     float: right;
-    width: 40vh;
     border: 2px white solid;
     height: 100vh;
     padding: 0%;
