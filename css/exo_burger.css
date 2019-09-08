@@ -1,17 +1,28 @@
 body{ 
   background-image: url("../menu-home-image.jpg");
-    background-size: 100vh;
+    background-size: contain;
+    width: 100%;
+    height: 62vw;
     background-repeat: no-repeat;
+    border: 2px red solid;
+    height: 138vh;
+    padding: 0%;
+    margin: 0%
 } 
+
 #droite{
-    
+    color: #fff;
+}
+
+#droite p{
+    color: #fff;
 }
 #gauche{
     float: right;
-    border: 2px white solid;
     height: 100vh;
     padding: 0%;
-    margin: 0% 0% 50% 0%;
+    margin-bottom: 20%;
+    margin-right: 10vw;
     background-color: black;
 }
 /* #E31019;*/
