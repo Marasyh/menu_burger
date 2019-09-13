@@ -8,14 +8,14 @@
     <title> Ferro </title>
 </head>
 <link rel="stylesheet" type="text/css" href="css/exo_burger.css"> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/e5f88cdfd2.js"></script>
 
 <body>
-     
-    <div id="droite">
-        <p class="ferro"> Ferro</div>
-        <p class="strength"> Strength is defined by what  lies beneath</div>
+     <!--
+    <div id="gauche">
+        <p class="ferro"> Ferro</p>
+        <p class="strength"> Strength is defined by what  lies beneath</p>
         <p class="and"> And every con</p>
 
         <div id="stike"> 
@@ -24,15 +24,49 @@
 
         </div>
     </div>
+-->
+    <!-- menu burger -->
 
-    <!-- menu burger-->
-    <div id="gauche"> 
-        <div id="redbottom">
-            <p class="fleche"> <i class="fas fa-long-arrow-alt-right"></i> </p>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#bouton').on('click touch', function (e) {
+            $('#nav').slideToggle();
+        });
+    });
+</script>
+
+
+
+
+
+
+    <div id="droite"> 
+        <div id="bouton">
+            
+        <a href="page2.html">________</a> 
+        <a href="page2.html">______________</a>
+
+
         </div>
+
+        <div id="logo">
+            <img src="images/Simplon_rouge.png" title=""> 
+            <img src="images/Simplon_rouge.png" title="">
+            <img src="images/Simplon_rouge.png" title="">
+            <img src="images/Simplon_rouge.png" title="">
+            <img src="images/Simplon_rouge.png" title="">
+            <img src="images/Simplon_rouge.png" title="">
+        </div>
+
+        <div id="carrerouge">
+            <i class="fas fa-arrow-right fa-2x"></i>
+        </div>
+        
     </div>
-
-
+    
+<script src="js/fichier.js" type='text/javascript'> </script>
 
 
 </body>

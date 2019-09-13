@@ -1,0 +1,40 @@
+body{ 
+  background-color: #e31019;
+    padding: 0%;
+    margin: 0%;
+   
+} 
+
+#gauche{
+    height: 80vh;
+    width: 30vw;
+    color: white;
+    float: left;
+}
+
+.ferro{
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
+#droite { 
+    background-color:#ffffff;
+   float: right;
+   height: 100vh;
+   width: 14vw;
+   opacity: 0.95;
+}
+
+p.x{
+    color: #e31019;
+    font-size: xx-large;
+    margin-left: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: #e31019;}
+
+
+
+

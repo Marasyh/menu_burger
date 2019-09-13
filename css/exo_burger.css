@@ -1,28 +1,71 @@
 body{ 
-  background-image: url("../menu-home-image.jpg");
-    background-size: contain;
-    width: 100%;
-    height: 62vw;
-    background-repeat: no-repeat;
-    border: 2px red solid;
-    height: 138vh;
+  background-image: url("../images/Simplon clermont polygone.png");
     padding: 0%;
-    margin: 0%
+    margin: 0%;
+    background-size: contain;
+    background-repeat: space;
+    background-position: center;
+   
 } 
 
-#droite{
-    color: #fff;
+#gauche{
+   border: rgb(8, 167, 74) 1px solid;
+    height: 80vh;
+    width: 30vw;
+    color: white;
+    float: left;
 }
 
-#droite p{
-    color: #fff;
+.ferro{
+    font-size: 7vh;
+    font-weight: bolder;
 }
-#gauche{
-    float: right;
-    height: 100vh;
-    padding: 0%;
-    margin-bottom: 20%;
-    margin-right: 10vw;
-    background-color: black;
+
+#droite { 
+    background-color:#181717;
+   float: right;
+   height: 100vh;
+   width: 14vw;
+   opacity: 0.95;
+   
 }
-/* #E31019;*/
+
+
+#bouton a{
+background-color: white;
+margin: 20% 30% -18% 47%;
+text-decoration: none;
+float: right;
+font-size: 9Px;
+
+
+}
+
+
+
+#logo{
+    padding-top: 15vh;
+    padding-left: 5vw;
+}
+
+#logo img{
+    margin-right: 5%;
+    margin-top:15%;
+    height: 8vh;
+    width: 4vw;}
+
+
+#carrerouge{
+    background-color: #E31019;
+    height: 10vh;
+    margin-top: 6.5vh;
+}
+
+
+i { 
+    color: white;}
+
+.fa, .fas {
+    font-weight: 700;
+    padding: 10% 0% 0% 45%;
+}
