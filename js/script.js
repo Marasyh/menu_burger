@@ -1,5 +1,14 @@
-function hover(burger){
-    element.setAttribute ('src' , 'croixroue.jpg')
+function updateTransition() {
+    var el = document.querySelector("div.box");
+
+    if (el) {
+        el.className = "box1";
+    } else {
+        el = document.querySelector("div.box1");
+        el.className = "box";
+    }
+
+    return el;
 }
 
-<img id=burger src= croixrouge.jpg onmouseover = passageDeLaSouris(this); />
+var intervalID = window.setInterval(updateTransition, 7000);
